@@ -1,0 +1,19 @@
+{
+  "name": "rainbowify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "rainbowify": "./cli.js"
+  },
+  
+  "author": "max ogden",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/rainbowify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/rainbowify/issues"
+  },
+  "homepage": "https://github.com/maxogden/rainbowify"
+}
