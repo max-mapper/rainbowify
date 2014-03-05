@@ -1,6 +1,7 @@
 {
   "name": "rainbowify",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "rainbow print stuff in terminal",
   "main": "index.js",
   "bin": {
     "rainbowify": "./cli.js"
