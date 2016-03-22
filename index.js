@@ -1,4 +1,3 @@
-colorIndex = 0
 rainbowColors = gencolors()
 
 module.exports = rainbowify
@@ -19,7 +18,10 @@ function gencolors() {
 };
 
 function rainbowify(str) {
-  var color = rainbowColors[colorIndex % rainbowColors.length];
-  colorIndex += 1;
+  var color = rainbowColors[rainbowify.colorIndex % rainbowColors.length];
+  rainbowify.colorIndex += 1;
   return '\u001b[38;5;' + color + 'm' + str + '\u001b[0m';
 };
+
+rainbowify.colorIndex = 0;
+
